@@ -7,18 +7,24 @@
             <h1>TIP CALCULATOR</h1>
             <div class="wrap">
                 <p>Bill Amount</p>
-                <input type="text">
+                <input type="text" placeholder="Amount to be paid">₹
                 <p>How was the service</p>
                 <select>
-                    <option>25% -Excelent</option>
+                    <option selected disabled hidden>Select</option>
+                    <option>25% -Excellent</option>
                     <option>20% -Very Good</option>
                     <option>15% -Good</option>
                     <option>10% -Bad</option>
                     <option> 5% -Worst</option>
                 </select>
                 <p>Number of people</p>
-                <input type="text">
+                <input type="text" placeholder="Number of people sharing th bill">
                 <button>Calculate</button>
+            </div>
+            <div class="tip">
+                <p>Tip Amount</p>
+                <span>0</span>₹
+                <span>each</span>
             </div>
         </div>
     </body>
